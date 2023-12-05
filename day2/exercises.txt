@@ -1,0 +1,13 @@
+# Functions Exercises
+
+1. Write a function that takes 3 numbers and returns their sum
+
+2. Write a function that takes a number and returns the sum of its digits
+
+3. Write a function that takes a number and checks if it's a prime number.
+   A prime number divides only by 1 and by itself (for example 2, 3, 5 and 17 are primes)
+
+4. Use the function from (3) to count how many prime numbers are there between
+   2 and 1_000_000 (1 million)
+
+ 
