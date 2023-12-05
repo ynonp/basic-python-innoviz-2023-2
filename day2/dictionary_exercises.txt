@@ -1,0 +1,14 @@
+# Dictionary Exercises
+
+1. Write a function that takes a username and password pair and
+   returns True if the credentials are valid.
+   Valid credentials are:
+   admin / 1234
+   user / password
+   db / st0r@g3
+
+2. Write a function that takes a dictionary and returns the key with the largest value
+   for example:
+   max_value({"a": 10, "b": 20, "c": 5}) == "b"
+
+3. Write a function that takes a list of
