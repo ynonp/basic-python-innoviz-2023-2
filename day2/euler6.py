@@ -19,3 +19,8 @@ x = euler6(10)
 print(x)
 print(f"The big answer is: {euler6(100)}")
 euler6(1000)
+
+def add_3(x, y, z):
+    ...
+
+add_3(10, 12, 15)

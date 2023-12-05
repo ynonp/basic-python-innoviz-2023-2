@@ -2,6 +2,11 @@
 
 1. Write a function that takes 3 numbers and returns their sum
 
+def add_3(x, y, z):
+    ...
+
+add_3(10, 12, 15)
+
 2. Write a function that takes a number and returns the sum of its digits
 
 3. Write a function that takes a number and checks if it's a prime number.
