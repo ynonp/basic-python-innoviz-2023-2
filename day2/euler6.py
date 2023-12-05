@@ -20,7 +20,22 @@ print(x)
 print(f"The big answer is: {euler6(100)}")
 euler6(1000)
 
-def add_3(x, y, z):
-    ...
+# def add_3(x, y, z):
+#     ...
+#
+# add_3(10, 12, 15)
 
-add_3(10, 12, 15)
+print(sum(range(1, 11)))
+print(sum(range(1, 11)) ** 2)
+print(sum([i ** 2 for i in range(1, 11)]))
+
+print(sum([i ** 2 for i in range(1, 11)]) - sum(range(1, 11)))
+
+
+
+
+
+
+
+
+
