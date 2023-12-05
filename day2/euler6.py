@@ -12,9 +12,10 @@ def euler6(last_number_in_sum: int):
         total_squares += i ** 2
 
     square_total = total ** 2
-    print(square_total - total_squares)
+    return square_total - total_squares
 
 
-euler6(10)
-euler6(100)
+x = euler6(10)
+print(x)
+print(f"The big answer is: {euler6(100)}")
 euler6(1000)
