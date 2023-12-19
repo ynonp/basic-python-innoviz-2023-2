@@ -40,3 +40,16 @@ print(len(digits_as_strings))
 
 grades = [99, 95, 100, 92, 89]
 avg = sum(grades) / len(grades)
+
+
+print([i for i in range(10) if i % 3 == 0])
+
+
+
+
+
+
+
+
+
+

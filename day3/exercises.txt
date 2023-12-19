@@ -1,0 +1,9 @@
+1. Create a text file and write to it all the numbers from 1 to 100,
+   each number in its own line
+
+2. Read the file files.py and write a copy of it to another file copy_of_files.py
+
+3. Read the file files.py, and copy all the lines that don't start with #
+   to a new file copy_of_files_without_comments.py
+
+(*) 4. Change all occurrences of the word "java" to "python" in file input.txt

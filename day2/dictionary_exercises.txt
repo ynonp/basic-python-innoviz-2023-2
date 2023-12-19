@@ -10,5 +10,3 @@
 2. Write a function that takes a dictionary and returns the key with the largest value
    for example:
    max_value({"a": 10, "b": 20, "c": 5}) == "b"
-
-3. Write a function that takes a list of

@@ -28,11 +28,15 @@ def sum_digits_until_one_digit_number(n):
 print(sum_digits_until_one_digit_number(1254))
 
 
-def is_prime(n):
+def is_prime_v1(n):
     for i in range(2, int(n ** 0.5) + 1):
         if n % i == 0:
             return False
     return True
+
+from math import sqrt
+def is_prime_v2(n):
+    return not any(n % i == 0 for i in range(2, int(sqrt(n)) + 1))
 
 
 assert(is_prime(17) == True)
