@@ -1,9 +1,21 @@
+https://github.com/ynonp/basic-python-innoviz-2023-2
+
 1. Create a text file and write to it all the numbers from 1 to 100,
    each number in its own line
 
 2. Read the file files.py and write a copy of it to another file copy_of_files.py
 
+open('files.py', 'r', encoding='utf-8') as fin:
+    open('copy_of_files.py', 'w', encoding='utf-8') as fout:
+        ... # read from fin, write to fout
+
+
 3. Read the file files.py, and copy all the lines that don't start with #
    to a new file copy_of_files_without_comments.py
 
+
 (*) 4. Change all occurrences of the word "java" to "python" in file input.txt
+Hint:
+import shutil
+line.replace('java', 'python')
+shutil.move("file_with_python", "file_with_java")
