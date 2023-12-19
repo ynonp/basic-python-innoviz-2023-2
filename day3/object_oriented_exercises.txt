@@ -1,0 +1,42 @@
+# Summer
+
+Write a class called Summer so the following code works:
+
+s = Summer()
+t = Summer()
+
+s.add(10)
+s.add(20)
+s.add(30)
+t.add(55)
+
+# prints: 60
+print(s)
+
+# prints: 55
+print(t)
+
+2. Add a method "reset" to summer so we can do:
+
+s = Summer()
+s.add(10)
+s.add(10)
+s.add(10)
+s.reset()
+
+# prints 0
+print(s)
+
+3. Modify Summer so we can do:
+s = Summer()
+
+s += 10
+s += 10
+s.reset()
+s += 10
+
+# prints 10
+print(s)
+
+
+
