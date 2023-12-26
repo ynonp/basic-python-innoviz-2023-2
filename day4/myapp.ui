@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Save Christmas Day 1</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -34,6 +34,11 @@
     </item>
     <item row="2" column="0" colspan="2">
      <widget class="QLabel" name="labelResult">
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>Result:</string>
       </property>
@@ -50,8 +55,44 @@
      <height>24</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionQuit"/>
+    <addaction name="actionHelp"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionHelp_2"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAbout"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionHelp_2">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
