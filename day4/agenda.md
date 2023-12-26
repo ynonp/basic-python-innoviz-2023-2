@@ -9,4 +9,8 @@ https://1drv.ms/b/s!AoBOc4GoqiAGgc4xhmXu5l-ZazEScw?e=nQKv58
   - Day 4: https://adventofcode.com/2023/day/4
 
 - GUI (PySide)
+    - Install package "pyside6"
+    - From terminal run "pyside6-designer"
+    - Convert "myapp.ui" to a python file with:
+    - "pyside6-uic myapp.ui -o myapp_ui.py"
 - Run external programs
